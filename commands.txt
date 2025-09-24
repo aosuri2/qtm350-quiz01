@@ -21,12 +21,18 @@
 22. git push
 
 For the bonus questions:
-1. git remote add https://github.com/danilofreire/qtm350-quiz01
-git checkout main
-git merge upstream/main
-git push origin main
+1. git push -u origin feature-update
+#go to compare and list mine as the main and dr. freire's as the base to compare
+
+base repository: danilofreire/qtm350-quiz01
+head repository: aosuri2/qtm350-quiz01
+"create pull request"
 
 2. git checkout feature-update
 git rebase -i HEAD~2
 #change pick fbe051d Add .gitignore file to squash fbe051d Add .gitignore file
 #click esc and then type :wqa
+#change the line to update project files and add .gitignore
+#click esc and then type :wqa
+git push
+
